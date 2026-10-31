@@ -1,0 +1,18 @@
+name: Validate translations
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: PHP version
+        run: php -v
+      - name: Validate language files
+        run: php tools/validate.php
+      - name: Translation status
+        run: php tools/diff.php --version=v4.1 --summary
