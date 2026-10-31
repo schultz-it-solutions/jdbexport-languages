@@ -6,7 +6,10 @@ wrong, the agent will follow it from then on.
 
 ## Style
 
-- Form of address: _(to be decided by a reviewer, e.g. formal/informal)_
+- Spelling: standard German as used in Germany, **with ß** (Größe, Fußbereich,
+  standardmäßig, außer), decided by the maintainer. de-DE is the only German pack
+  (no de-CH/de-AT), so it must read naturally everywhere; never use Swiss "ss" for ß.
+- Form of address: formal "Sie", as in the existing volunteer translations.
 - Tone: concise UI language, as in the Joomla core translation for this language.
 - Joomla's own terms (Article, Category, Module, Plugin, Access level, Options, ...):
   use the wording of the official Joomla de-DE translation.
@@ -37,7 +40,7 @@ translation). A term marked "not yet decided" is chosen on first use and added h
 | Autofilters | Autofilter | reviewed |
 | Extra cells | Zusätzliche Zellen | reviewed |
 | Header | Kopfbereich | reviewed |
-| Footer | Fussbereich | reviewed |
+| Footer | Fußbereich | reviewed |
 | Clear cache | Cache leeren | reviewed |
 | Control panel | Kontrollzentrum | reviewed |
 | Download | Herunterladen | reviewed |
